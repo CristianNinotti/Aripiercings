@@ -360,6 +360,7 @@ p {
                     }
 
 
+
 @media (min-width: 768px){
     .footer {
         padding: 48px 0px;
@@ -379,8 +380,8 @@ p {
         height: auto;
     }
     .aside {
-        display: flex;
-        justify-content: center;
+        flex: 1 1 auto;
+        display: flex; /* new */
     }
 }
 
@@ -392,8 +393,8 @@ p {
 
 @media all and (max-width: 400px){
     .aside {
-        height: auto;
-        flex-direction: column;
+        flex: 1 1 auto;
+        display: flex; /* new */;
     }
 }
 
